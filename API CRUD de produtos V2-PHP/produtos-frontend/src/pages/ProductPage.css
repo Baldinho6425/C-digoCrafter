@@ -1,0 +1,20 @@
+.page-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .actions button {
+    margin-right: 5px;
+  }
+  
