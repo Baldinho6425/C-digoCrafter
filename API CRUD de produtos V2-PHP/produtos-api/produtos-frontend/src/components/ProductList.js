@@ -5,7 +5,7 @@ import "./ProductList.css";
 
 const ProductList = () => {
   const [products, setProducts] = useState([
-    { id: 1, nome: "Produto 1", acabamento: "Acabamento 1", valor: "100", custo: "50" },
+    { id: 1, nome: "Produto 1", acabamento: "Acabamento 1", valor: "100", custo: "50" },//Para Testes
     { id: 2, nome: "Produto 2", acabamento: "Acabamento 2", valor: "150", custo: "80" },
   ]); // Produtos estáticos
   const [loading, setLoading] = useState(false); // Não estamos mais utilizando o carregamento dinâmico
