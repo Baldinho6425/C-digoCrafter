@@ -1,0 +1,105 @@
+.product-list {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  background-color: #5a5a5a;
+}
+
+button:focus {
+  outline: none;
+}
+
+button.green {
+  background-color: #4CAF50;
+  color: white;
+}
+
+button.green:hover {
+  background-color: #45a049;
+}
+
+button.blue {
+  background-color: #008CBA;
+  color: white;
+}
+
+button.blue:hover {
+  background-color: #007bb5;
+}
+
+button.red {
+  background-color: #f44336;
+  color: white;
+}
+
+button.red:hover {
+  background-color: #da190b;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+table td {
+  color: #555;
+}
+
+table td button {
+  margin-right: 5px;
+}
+
+.product-list p {
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.product-list button {
+  margin-top: 20px;
+  background-color: #008CBA;
+  color: white;
+}
+
+.product-list button:hover {
+  background-color: #007bb5;
+}
