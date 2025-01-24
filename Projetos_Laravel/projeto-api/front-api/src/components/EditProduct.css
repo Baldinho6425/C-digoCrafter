@@ -1,0 +1,102 @@
+.edit-product-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .back-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .edit-product-form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  h1 span {
+    color: #777;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input:focus,
+  select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cancel-button {
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .cancel-button:hover {
+    background-color: #999;
+  }
+  
+  .save-button {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .save-button:hover {
+    background-color: #333;
+  }
+  
