@@ -7,47 +7,52 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-Desafio: API CRUD de Produtos
-Este desafio propõe o desenvolvimento de uma API CRUD para gerenciamento de produtos, uma funcionalidade amplamente utilizada em aplicações modernas. O objetivo é criar um sistema simples e funcional que abrange backend, frontend e integração com banco de dados.
+## Desafio: API CRUD de Produtos  
 
-Objetivo
-Criar uma aplicação que permita gerenciar produtos por meio das seguintes operações:
+Este desafio propõe o desenvolvimento de uma **API CRUD** para gerenciamento de produtos, uma funcionalidade amplamente utilizada em aplicações modernas. O objetivo é criar um sistema simples e funcional que abrange backend, frontend e integração com banco de dados.  
 
-Criar novos produtos
-Listar produtos existentes
-Editar produtos cadastrados
-Excluir produtos
-Cada produto deve conter as seguintes informações:
+### Objetivo  
+Criar uma aplicação que permita gerenciar produtos por meio das seguintes operações:  
+- **Criar** novos produtos  
+- **Listar** produtos existentes  
+- **Editar** produtos cadastrados  
+- **Excluir** produtos  
 
-Nome do Produto
-Acabamento
-Valor
-Tecnologias Utilizadas
-Banco de Dados: MySQL
-Framework Backend: Laravel
-Framework Frontend: React
-Detalhes do Desafio
-Backend:
+Cada produto deve conter as seguintes informações:  
+1. **Nome do Produto**  
+2. **Acabamento**  
+3. **Valor**  
 
-Desenvolver a API utilizando o framework Laravel.
-Implementar as rotas e métodos para as operações CRUD.
-Garantir a integração com o banco de dados MySQL para armazenamento e gerenciamento das informações.
-Frontend:
+### Tecnologias Utilizadas  
 
-Criar uma interface funcional utilizando React.
-O frontend deve consumir os dados da API e exibi-los de forma clara e organizada.
-Incluir formulários para criar e editar produtos, além de botões para excluir e listar informações.
-Integração:
+- **Banco de Dados:** MySQL  
+- **Framework Backend:** Laravel  
+- **Framework Frontend:** React  
 
-Garantir a comunicação entre o frontend e o backend, permitindo o fluxo de dados entre os dois.
-Estrutura do Projeto
-Backend:
+### Detalhes do Desafio  
 
-Diretório do código-fonte da API em Laravel.
-Arquivo de configuração para o banco de dados MySQL.
-Frontend:
+1. **Backend:**  
+   - Desenvolver a API utilizando o framework **Laravel**.  
+   - Implementar as rotas e métodos para as operações CRUD.  
+   - Garantir a integração com o banco de dados **MySQL** para armazenamento e gerenciamento das informações.  
 
-Diretório do código-fonte da aplicação React.
-Componentes e hooks para manipulação de estados e dados da API.
-Objetivo Final
-A aplicação deve oferecer uma experiência simples, eficiente e funcional para gerenciamento de produtos, servindo como base para aplicações mais robustas no futuro.
+2. **Frontend:**  
+   - Criar uma interface funcional utilizando **React**.  
+   - O frontend deve consumir os dados da API e exibi-los de forma clara e organizada.  
+   - Incluir formulários para criar e editar produtos, além de botões para excluir e listar informações.  
+
+3. **Integração:**  
+   - Garantir a comunicação entre o frontend e o backend, permitindo o fluxo de dados entre os dois.  
+
+### Estrutura do Projeto  
+
+- **Backend:**  
+  - Diretório do código-fonte da API em Laravel.  
+  - Arquivo de configuração para o banco de dados MySQL.  
+
+- **Frontend:**  
+  - Diretório do código-fonte da aplicação React.  
+  - Componentes e hooks para manipulação de estados e dados da API.  
+
+### Objetivo Final  
+A aplicação deve oferecer uma experiência simples, eficiente e funcional para gerenciamento de produtos, servindo como base para aplicações mais robustas no futuro.  
