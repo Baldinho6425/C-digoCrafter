@@ -7,15 +7,47 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-Você precisará desenvolver um método simples, mas muito utilizado em aplicações. O desafio consiste em criar uma API CRUD de produtos para gerenciar as seguintes informações:
+Desafio: API CRUD de Produtos
+Este desafio propõe o desenvolvimento de uma API CRUD para gerenciamento de produtos, uma funcionalidade amplamente utilizada em aplicações modernas. O objetivo é criar um sistema simples e funcional que abrange backend, frontend e integração com banco de dados.
 
-- Nome do Produto
-- Acabamento
-- Valor
+Objetivo
+Criar uma aplicação que permita gerenciar produtos por meio das seguintes operações:
 
-Tecnologias obrigatórias:
-- Banco de Dados: MySQL
-- Framework Backend: Laravel
-- Framework Frontend: React
+Criar novos produtos
+Listar produtos existentes
+Editar produtos cadastrados
+Excluir produtos
+Cada produto deve conter as seguintes informações:
 
-A API criada em Laravel deve estar conectada ao frontend em React, que será responsável por consumir os dados e exibi-los em uma interface funcional.
+Nome do Produto
+Acabamento
+Valor
+Tecnologias Utilizadas
+Banco de Dados: MySQL
+Framework Backend: Laravel
+Framework Frontend: React
+Detalhes do Desafio
+Backend:
+
+Desenvolver a API utilizando o framework Laravel.
+Implementar as rotas e métodos para as operações CRUD.
+Garantir a integração com o banco de dados MySQL para armazenamento e gerenciamento das informações.
+Frontend:
+
+Criar uma interface funcional utilizando React.
+O frontend deve consumir os dados da API e exibi-los de forma clara e organizada.
+Incluir formulários para criar e editar produtos, além de botões para excluir e listar informações.
+Integração:
+
+Garantir a comunicação entre o frontend e o backend, permitindo o fluxo de dados entre os dois.
+Estrutura do Projeto
+Backend:
+
+Diretório do código-fonte da API em Laravel.
+Arquivo de configuração para o banco de dados MySQL.
+Frontend:
+
+Diretório do código-fonte da aplicação React.
+Componentes e hooks para manipulação de estados e dados da API.
+Objetivo Final
+A aplicação deve oferecer uma experiência simples, eficiente e funcional para gerenciamento de produtos, servindo como base para aplicações mais robustas no futuro.
